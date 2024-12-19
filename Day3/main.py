@@ -1,5 +1,8 @@
 import re
 
+# Logic 1: Match the pattern (mul(2,3)) and then extract the digits to sum
+# up the multiplication of the numbers.
+
 def part1() :
 
     with open("input.txt") as f:
@@ -19,6 +22,9 @@ def part1() :
     print(result)
 
 part1()
+
+# Logic 2: Same as above but we first extract pattern do() and don't()
+# and then get the result.
 
 def part2() :
 
